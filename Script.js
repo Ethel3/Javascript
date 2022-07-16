@@ -1,11 +1,18 @@
-function countdown() {
-    console.log(5)
-    console.log(4)
-    console.log(3)
-    console.log(2)
-    console.log(1)
+// let lap1 = 34
+// let lap2 = 30
+// let lap3 = 20
+//  function lapTime() {
+//     let totalTime = lap1 + lap2 + lap3
+//     console.log(totalTime)
+//  }
+//  lapTime()
+    
+let age1 = 14
+let age2 = 25
+let age3 = 45
+
+function sumAge(){
+    console.log(age1 + age2 + age3)
 }
-// setting up the race
-countdown()
-// Get ready for the new race
-countdown()
+sumAge()
+

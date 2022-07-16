@@ -2,5 +2,6 @@
 // count = count + 1
 // console.log(count)
 // let countEl = document.getElementById("count-el");
-let username = "Bella"
-console.log(username)
+let quote = "Bella said"
+ let message = "God is so wonderful"
+ console.log(quote + ":" + message + "!")

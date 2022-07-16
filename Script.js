@@ -4,4 +4,8 @@
 // let countEl = document.getElementById("count-el");
 let quote = "Bella said"
  let message = "God is so wonderful"
- console.log(quote + ":" + message + "!")
+
+ let messageToUser = quote + ":" + message + "!"
+ console.log(messageToUser)
+
+

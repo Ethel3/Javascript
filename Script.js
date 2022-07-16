@@ -2,9 +2,11 @@ let lapsCompleted = 0
 
 function countlaps() {
     lapsCompleted = lapsCompleted + 1
-    lapsCompleted = lapsCompleted + 1
-    lapsCompleted = lapsCompleted + 1
+    // lapsCompleted = lapsCompleted + 1
+    // lapsCompleted = lapsCompleted + 1
 }
+countlaps()
+countlaps()
 countlaps()
 
 console.log(lapsCompleted)

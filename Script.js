@@ -1,13 +1,13 @@
-let lapsCompleted = 0
+// let count = 5
+// count = count + 1
+// console.log(count)
+let countEl = document.getElementById("count-el");
+console.log(countEl);
 
-function countlaps() {
-    lapsCompleted = lapsCompleted + 1
-    // lapsCompleted = lapsCompleted + 1
-    // lapsCompleted = lapsCompleted + 1
+let count = 1;
+
+function increment() {
+  // console.log("clicked")
+  count = count + 1;
+  console.log(count);
 }
-countlaps()
-countlaps()
-countlaps()
-
-console.log(lapsCompleted)
-

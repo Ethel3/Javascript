@@ -1,13 +1,19 @@
 // let count = 5
 // count = count + 1
 // console.log(count)
-// let countEl = document.getElementById("count-el");
-let welcomeEl = document.getElementById("welcome-el")
+let saveEl = document.getElementById("save-el")
+let countEl = document.getElementById("count-el");
+let count = 0
 
-let name = "Ethel"
-let greeting = "Welcome back "
+console.log(saveEl)
 
-welcomeEl.innerText = greeting + name
+function increment (){
+    count = count + 1
+    countEl.innerText = count
+}
 
-welcomeEl.innerText = welcomeEl.innerText + "👋"
-// welcomeEl.innerText += "👋"
+function save(){
+    let countStr = count + " - "
+    saveEl.innerText +=countStr
+    console.log(count)
+}

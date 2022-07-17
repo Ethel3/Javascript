@@ -17,5 +17,7 @@ function save(){
     saveEl.textContent +=countStr
     countEl.textContent = 0
     count = 0
-    // console.log(count)
+    
 }
+
+console.log("Let's count people on the subway!")

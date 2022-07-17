@@ -10,9 +10,11 @@ let greeting = "Hello,  my name is "
 let myGreeting = greeting  + name
 // console.log(myGreeting)
 
-let day = 4
-let month = "5"
-let year = "22"
+let age1 = 4
+let age2 = 5
+console.log(4 + 5)
 
-let birthDate = day + "" + month +"" + year
-console.log(birthDate)
+let dog1 = "2"
+let dog2 = "4"
+console.log("2" + "4")
+

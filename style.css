@@ -3,7 +3,7 @@
     padding: 0;
 }
 * #increment-btn {
-    display: block;
+    display: flex;
     border: solid white;
     border-width: 0 10px;
     border-radius: 0;
@@ -12,17 +12,16 @@
     font-size: 18px;
     margin: -60px auto 15px;
     padding: 15px;
-    vertical-align: middle;
+    
    }
    #save-btn {
     background-color: darkred; 
     border: none;
     color: white;
     padding: 15px 32px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
     font-size: 16px;
   } 
   

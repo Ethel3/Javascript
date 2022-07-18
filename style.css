@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-/* button {
+#increment-btn {
     display: block;
     border: solid white;
     border-width: 0 10px;
@@ -12,7 +12,7 @@
     font-size: 18px;
     margin: -60px auto 15px;
     padding: 15px;
-   } */
+   }
    #save-btn {
     background-color: #4CAF50; /* Green */
     border: none;

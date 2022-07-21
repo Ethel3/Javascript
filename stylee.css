@@ -1,0 +1,13 @@
+body{
+    background: white;
+    font-family: Arial, Helvetica, Sans-serif;
+    padding: 20px
+}
+img{
+    width: 200px;
+    display: block;
+}
+p{
+    font-weight: 600;
+    margin-bottom: 5px;
+}

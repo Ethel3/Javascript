@@ -12,7 +12,7 @@ if (sum < 21) {
 }
 else if (sum === 21) {
     // console.log("congrats!!" + "🥳")
-   message = ("Comgrats!!" + "🥳")
+   message = ("Congrats!!" + "🥳")
     let hasBlackJack = true
     let isAlive = false
 }

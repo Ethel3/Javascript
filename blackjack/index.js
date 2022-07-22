@@ -16,8 +16,8 @@ let age = 150
 if (age < 100){
     console.log("You're not eligible! ")
 }
-else if(age === 100){
+else if(age == "100"){
     console.log("Here is your Birthday Card!!")
 }else {
-    console.log("You're not eligible")
+    console.log("You're not eligible! You already have a Card")
 }

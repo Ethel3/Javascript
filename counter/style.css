@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    width: 30%;
+    margin: 5px auto;
+    align-items: center;
+    text-align: center
+}
+h1, h2{
+    margin: 5px 0
+}
+button{
+    width: 200px;
+    margin: 3px auto
+}
+#increment-btn {
+    border: none;
+    /* border-width: 0 10px; */
+    border-radius: 0;
+    background: green;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    cursor: pointer
+    
+   }
+   #save-btn {
+    background-color: darkred; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer
+  } 
+.buttons{
+    display: flex;
+    flex-direction: column
+}

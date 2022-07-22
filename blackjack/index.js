@@ -3,16 +3,20 @@ let secondCard = 16
 let sum = firstCard + secondCard
 let hasBlackJack = false
 
+let isAlive = true
+
 if (sum < 21) {
     console.log("Draw new cards" + "🙂")
 }
 else if (sum === 21) {
     console.log("Comgrats!!" + "🥳")
     let hasBlackJack = true
+    let isAlive = false
 }
 else if(sum > 21) {
     console.log("You're out of the game!" + "😭")
 }
+console.log(isAlive)
 
 // let age = 150
 // if (age < 100){

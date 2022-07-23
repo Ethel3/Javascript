@@ -6,21 +6,26 @@ let isAlive = true
 
 let message = ""
 
-if (sum < 21) {
-    // console.log("Draw new cards" + "🙂")
-    message = ("Draw new cards" + "🙂")
+
+function startGame(){
+    if (sum < 21) {
+        // console.log("Draw new cards" + "🙂")
+        message = ("Draw new cards" + "🙂")
+    }
+    else if (sum === 21) {
+        // console.log("congrats!!" + "🥳")
+       message = ("Congrats!!" + "🥳")
+        let hasBlackJack = true
+        let isAlive = false
+    }
+    else if(sum > 21) {
+        // console.log("You're out of the game!" + "😭")
+        message = ("You're out of the game!" + "😭")
+    }
+    console.log(message)
+
 }
-else if (sum === 21) {
-    // console.log("congrats!!" + "🥳")
-   message = ("Congrats!!" + "🥳")
-    let hasBlackJack = true
-    let isAlive = false
-}
-else if(sum > 21) {
-    // console.log("You're out of the game!" + "😭")
-    message = ("You're out of the game!" + "😭")
-}
-console.log(message)
+
 
 // let age = 150
 // if (age < 100){

@@ -6,7 +6,8 @@ let isAlive = true
 let message = ""
  let messageEl = document.getElementById("message-el")
  console.log(messageEl)
- let sumEl = document.getElementById("sum-el")
+//  let sumEl = document.getElementById("sum-el")
+let sumEl = document.querySelector("#sum-el")
 
 
 

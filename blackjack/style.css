@@ -1,4 +1,13 @@
 body{
     font-family: 'Trebuchet MS', 'Lucid','sans-serif';
-    background-color: turquoise;
+    background-color: cyan;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+h1 {
+    color: goldenrod;
+}
+#message-el{
+    font-style: italics;
 }

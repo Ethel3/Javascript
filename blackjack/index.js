@@ -14,7 +14,7 @@ let cardsEl = document.getElementById("cards-el")
 
 
 function Game() {
-    cardsEl.textContent = "cards: " + firstCard + "" + secondCard
+    cardsEl.textContent = "cards: " + firstCard + "" + "" + secondCard
     sumEl.textContent = "sum: " + sum
     if (sum < 21) {
         // console.log("Draw new cards" + "🙂")
@@ -35,6 +35,9 @@ function Game() {
 
 }
 
+function newCard(){
+    console.log("Drawing a new card")
+}
 
 // let age = 150
 // if (age < 100){

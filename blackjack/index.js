@@ -3,13 +3,16 @@ let secondCard = 2
 let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
+let message = ""
  let messageEl = document.getElementById("message-el")
  console.log(messageEl)
+ let sumEl = document.getElementById("sum-el")
 
-let message = ""
+
 
 
 function Game() {
+    sumEl.textContent = "sum: " + sum
     if (sum < 21) {
         // console.log("Draw new cards" + "🙂")
         message = ("Draw new cards")

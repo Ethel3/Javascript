@@ -8,11 +8,13 @@ let message = ""
  console.log(messageEl)
 //  let sumEl = document.getElementById("sum-el")
 let sumEl = document.querySelector("#sum-el")
+let cardsEl = document.getElementById("cards-el")
 
 
 
 
 function Game() {
+    cardsEl.textContent = "cards: " + firstCard + "" + secondCard
     sumEl.textContent = "sum: " + sum
     if (sum < 21) {
         // console.log("Draw new cards" + "🙂")

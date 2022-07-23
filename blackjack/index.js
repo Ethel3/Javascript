@@ -10,11 +10,13 @@ let message = ""
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.getElementById("cards-el")
 
+function startGame(){
+    renderGame
+}
 
 
-
-function Game() {
-    cardsEl.textContent = "cards: " + firstCard + "" + "" + secondCard
+function renderGame() {
+    cardsEl.textContent = "cards: " + firstCard + " " + " " + secondCard
     sumEl.textContent = "sum: " + sum
     if (sum < 21) {
         // console.log("Draw new cards" + "🙂")
@@ -37,6 +39,9 @@ function Game() {
 
 function newCard(){
     console.log("Drawing a new card")
+    let card = 16
+    sum += card
+    renderGame()
 }
 
 // let age = 150

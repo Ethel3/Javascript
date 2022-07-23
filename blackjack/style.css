@@ -1,13 +1,25 @@
 body{
     font-family: 'Trebuchet MS', 'Lucid','sans-serif';
-    background-color: cyan;
+    background-size: cover;
+    font-weight: bold;
+    background-color: green;
     text-align: center;
     color: white;
-    font-weight: bold;
+    
 }
 h1 {
     color: goldenrod;
 }
 #message-el{
-    font-style: italics;
+    font-style: italic;
+}
+button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+
 }

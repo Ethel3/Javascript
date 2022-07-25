@@ -7,3 +7,6 @@ let techCareers = [
 ]
 // console.log(techCareers)
 console.log(techCareers[4])
+
+
+console.log(techCareers.length)

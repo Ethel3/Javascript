@@ -39,11 +39,15 @@ function renderGame() {
 }
 
 function newCard(){
-    console.log("Drawing a new card")
+    // console.log("Drawing a new card")
     let card = 16
     sum += card
+    cards.push(card)
+    console.log(cards)
     renderGame()
 }
+
+
 
 // let age = 150
 // if (age < 100){

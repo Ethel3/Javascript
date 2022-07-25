@@ -5,4 +5,5 @@ let techCareers = [
     "Backend Developer",
     "Cyber security personnel",
 ]
-console.log(techCareers)
+// console.log(techCareers)
+console.log(techCareers[4])

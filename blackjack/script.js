@@ -25,6 +25,6 @@ let messages = [
     "Same here!",
     "That's great to hear."
 ]
-for(i = 0; i < 5; i+=1){
+for(i = 0; i < messages.length; i+=1){
     console.log(messages[i])
 }

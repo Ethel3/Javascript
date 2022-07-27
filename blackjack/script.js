@@ -10,10 +10,21 @@
 
 
 // console.log(techCareers.length)
-for( let count =0; count < 5; count+=1){
-    console.log(count)
-}
-for (let i = 0; i <= 100; i +=10){
-    console.log(i)
-}
+
+// for( let count =0; count < 5; count+=1){
+//     console.log(count)
+// }
+// for (let i = 0; i <= 100; i +=10){
+//     console.log(i)
+// }
  
+let messages = [
+    "Hey, how are you doing?",
+    "I'm great, thank you! How about you?",
+    "All is well. Been working on some projects.",
+    "Same here!",
+    "That's great to hear."
+]
+for(i = 0; i < 5; i+=1){
+    console.log(messages[i])
+}

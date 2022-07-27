@@ -10,7 +10,10 @@
 
 
 // console.log(techCareers.length)
-for( let count =1; count < 21; count+=2){
+for( let count =0; count < 5; count+=1){
     console.log(count)
+}
+for (let i = 0; i <= 100; i +=10){
+    console.log(i)
 }
  

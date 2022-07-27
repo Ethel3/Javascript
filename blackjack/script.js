@@ -18,13 +18,22 @@
 //     console.log(i)
 // }
  
-let messages = [
-    "Hey, how are you doing?",
-    "I'm great, thank you! How about you?",
-    "All is well. Been working on some projects.",
-    "Same here!",
-    "That's great to hear."
-]
-for(i = 0; i < messages.length; i+=1){
-    console.log(messages[i])
+
+// {for loops and arrays}
+// let messages = [
+//     "Hey, how are you doing?",
+//     "I'm great, thank you! How about you?",
+//     "All is well. Been working on some projects.",
+//     "Same here!",
+//     "That's great to hear."
+// ]
+// for(i = 0; i < messages.length; i+=1){
+//     console.log(messages[i])
+// }
+
+let sentence = ["Hello ","my ","name ", "is ","Ethel "]
+let greetingEl = document.getElementById("greeting-el")
+
+for (let i =0; i<sentence.length; i++){
+    greetingEl.textContent += sentence[i]
 }

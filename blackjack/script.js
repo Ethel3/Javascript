@@ -60,6 +60,13 @@ function getFastestRaceTime(){
 // console.log(totalTime)
 
 //GENERATING RANDOM NUMBERS 
-let randomNumber = Math.floor(Math.random() * 6) 
+let randomNumber = Math.floor(Math.random() * 6) + 1
 
-console.log(randomNumber)
+// console.log(randomNumber)
+
+function rollDice(){
+    let randomNumber = Math.floor(Math.random() * 6) + 1
+    return randomNumber
+}
+
+console.log(rollDice())

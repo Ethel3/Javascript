@@ -39,7 +39,7 @@
 // }
 
 let player1Time = 102
-let player2Time = 107
+let player2Time = 109
 
 function getFastestRaceTime(){
     if (player1Time < player2Time){
@@ -50,5 +50,11 @@ function getFastestRaceTime(){
         return player1Time
     }
 }
-let fastestRace = getFastestRaceTime()
-console.log(fastestRace)
+// let fastestRace = getFastestRaceTime()
+// console.log(fastestRace)
+
+function getTotalRaceTime(){
+    return player1Time + player2Time
+}
+let totalTime = getTotalRaceTime()
+console.log(totalTime)

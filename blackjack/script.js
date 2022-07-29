@@ -53,8 +53,13 @@ function getFastestRaceTime(){
 // let fastestRace = getFastestRaceTime()
 // console.log(fastestRace)
 
-function getTotalRaceTime(){
-    return player1Time + player2Time
-}
-let totalTime = getTotalRaceTime()
-console.log(totalTime)
+// function getTotalRaceTime(){
+//     return player1Time + player2Time
+// }
+// let totalTime = getTotalRaceTime()
+// console.log(totalTime)
+
+//GENERATING RANDOM NUMBERS 
+let randomNumber = Math.random()
+
+console.log(randomNumber)

@@ -75,7 +75,7 @@ function getFastestRaceTime(){
 let hasSolvedChallenge = false
 let hasHintsLeft = false
 
-if (hasSolvedChallenge === false && hasHintsLeft === false){
+if (hasSolvedChallenge === false || hasHintsLeft === false){
     showSolution()
 }
 

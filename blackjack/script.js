@@ -85,11 +85,24 @@ function getFastestRaceTime(){
 // }
 
 //OR LOGICAL OPERATORS
-let likesDocumentaries = true
-let likesStartups = false
+// let likesDocumentaries = true
+// let likesStartups = false
 
-if (likesDocumentaries === true || likesStartups === false)
-recommendMovie()
-function recommendMovie(){
-    console.log("Hey, check out this new film")
+// if (likesDocumentaries === true || likesStartups === false)
+// recommendMovie()
+// function recommendMovie(){
+//     console.log("Hey, check out this new film")
+// }
+
+//INTRODUCTION TO OBJECTS
+let course = {
+    title: "Learn Photography",
+    lessons: 14,
+    creator: "Ethel",
+    length: 90,
+    level: 2,
+    isFree: true,
+    tags: ["photshoot", "ordinary"]
 }
+
+console.log(course.length)

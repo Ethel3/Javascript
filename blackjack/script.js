@@ -72,14 +72,14 @@ function getFastestRaceTime(){
 // console.log(rollDice())
 
 //LOGICAL OPERATORS
-let hasCompletedCourse = true
-let givesCertificate = true
+let hasSolvedChallenge = false
+let hasHintsLeft = false
 
-if(hasCompletedCourse === true && givesCertificate === true){
-        generateCertificate()
-    
+if (hasSolvedChallenge === false && hasHintsLeft === false){
+    showSolution()
 }
 
-function generateCertificate(){
-    console.log("Generating certificate....")
+
+function showSolution(){
+    console.log("Showing the solution....")
 }

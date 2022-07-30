@@ -60,13 +60,27 @@ function getFastestRaceTime(){
 // console.log(totalTime)
 
 //GENERATING RANDOM NUMBERS 
-let randomNumber = Math.floor(Math.random() * 6) + 1
+// let randomNumber = Math.floor(Math.random() * 6) + 1
 
-// console.log(randomNumber)
+// // console.log(randomNumber)
 
-function rollDice(){
-    let randomNumber = Math.floor(Math.random() * 6) + 1
-    return randomNumber
+// function rollDice(){
+//     let randomNumber = Math.floor(Math.random() * 6) + 1
+//     return randomNumber
+// }
+
+// console.log(rollDice())
+
+//LOGICAL OPERATORS
+let hasCompletedCourse = true
+let givesCertificate = true
+
+if(hasCompletedCourse === true){
+    if(givesCertificate === true){
+        generateCertificate()
+    }
 }
 
-console.log(rollDice())
+function generateCertificate(){
+    console.log("Generating certificate....")
+}

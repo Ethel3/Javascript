@@ -95,14 +95,24 @@ function getFastestRaceTime(){
 // }
 
 //INTRODUCTION TO OBJECTS
-let course = {
-    title: "Learn Photography",
-    lessons: 14,
-    creator: "Ethel",
-    length: 90,
-    level: 2,
-    isFree: true,
-    tags: ["photshoot", "ordinary"]
+// let course = {
+//     title: "Learn Photography",
+//     lessons: 14,
+//     creator: "Ethel",
+//     length: 90,
+//     level: 2,
+//     isFree: true,
+//     tags: ["photshoot", "ordinary"]
+// }
+
+// console.log(course.tags )
+
+let castle = {
+    title: "Live like a king in my castle",
+    price: 170,
+    isSuperHost: true,
+    images: ["img/castle1.png", "img/castle2.png"]
 }
 
-console.log(course.tags )
+console.log(castle.price)
+console.log(castle.isSuperHost)

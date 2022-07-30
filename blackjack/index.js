@@ -9,6 +9,12 @@ let message = ""
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.getElementById("cards-el")
 
+let playerName = "Ethel"
+let playerChips = 170
+
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = playerName + ": $" + playerChips
+
 console.log(cards)
 function getRandomCard(){
     let  randomNumber = Math.floor ( Math.random()*13) + 1

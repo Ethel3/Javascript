@@ -60,13 +60,59 @@ function getFastestRaceTime(){
 // console.log(totalTime)
 
 //GENERATING RANDOM NUMBERS 
-let randomNumber = Math.floor(Math.random() * 6) + 1
+// let randomNumber = Math.floor(Math.random() * 6) + 1
 
-// console.log(randomNumber)
+// // console.log(randomNumber)
 
-function rollDice(){
-    let randomNumber = Math.floor(Math.random() * 6) + 1
-    return randomNumber
+// function rollDice(){
+//     let randomNumber = Math.floor(Math.random() * 6) + 1
+//     return randomNumber
+// }
+
+// console.log(rollDice())
+
+// AND LOGICAL OPERATORS
+// let hasSolvedChallenge = false
+// let hasHintsLeft = false
+
+// if (hasSolvedChallenge === false && hasHintsLeft === false){
+//     showSolution()
+// }
+
+
+// function showSolution(){
+//     console.log("Showing the solution....")
+// }
+
+//OR LOGICAL OPERATORS
+// let likesDocumentaries = true
+// let likesStartups = false
+
+// if (likesDocumentaries === true || likesStartups === false)
+// recommendMovie()
+// function recommendMovie(){
+//     console.log("Hey, check out this new film")
+// }
+
+//INTRODUCTION TO OBJECTS
+// let course = {
+//     title: "Learn Photography",
+//     lessons: 14,
+//     creator: "Ethel",
+//     length: 90,
+//     level: 2,
+//     isFree: true,
+//     tags: ["photshoot", "ordinary"]
+// }
+
+// console.log(course.tags )
+
+let castle = {
+    title: "Live like a king in my castle",
+    price: 170,
+    isSuperHost: true,
+    images: ["img/castle1.png", "img/castle2.png"]
 }
 
-console.log(rollDice())
+console.log(castle.price)
+console.log(castle.isSuperHost)

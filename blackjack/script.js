@@ -71,15 +71,25 @@ function getFastestRaceTime(){
 
 // console.log(rollDice())
 
-//LOGICAL OPERATORS
-let hasSolvedChallenge = false
-let hasHintsLeft = false
+// AND LOGICAL OPERATORS
+// let hasSolvedChallenge = false
+// let hasHintsLeft = false
 
-if (hasSolvedChallenge === false || hasHintsLeft === false){
-    showSolution()
-}
+// if (hasSolvedChallenge === false && hasHintsLeft === false){
+//     showSolution()
+// }
 
 
-function showSolution(){
-    console.log("Showing the solution....")
+// function showSolution(){
+//     console.log("Showing the solution....")
+// }
+
+//OR LOGICAL OPERATORS
+let likesDocumentaries = true
+let likesStartups = false
+
+if (likesDocumentaries === true || likesStartups === false)
+recommendMovie()
+function recommendMovie(){
+    console.log("Hey, check out this new film")
 }

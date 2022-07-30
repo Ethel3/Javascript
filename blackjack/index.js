@@ -9,11 +9,14 @@ let message = ""
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.getElementById("cards-el")
 
-let playerName = "Ethel"
-let playerChips = 170
+let player = {
+     name : "Ethel",
+     chips : 170
+}
+
 
 let playerEl = document.getElementById("player-el")
-playerEl.textContent = playerName + ": $" + playerChips
+playerEl.textContent = player.name + ": $" + player.chips
 
 console.log(cards)
 function getRandomCard(){

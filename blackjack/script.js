@@ -105,4 +105,4 @@ let course = {
     tags: ["photshoot", "ordinary"]
 }
 
-console.log(course.length)
+console.log(course.tags )

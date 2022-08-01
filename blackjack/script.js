@@ -107,12 +107,25 @@ function getFastestRaceTime(){
 
 // console.log(course.tags )
 
-let castle = {
-    title: "Live like a king in my castle",
-    price: 170,
-    isSuperHost: true,
-    images: ["img/castle1.png", "img/castle2.png"]
+// let castle = {
+//     title: "Live like a king in my castle",
+//     price: 170,
+//     isSuperHost: true,
+//     images: ["img/castle1.png", "img/castle2.png"]
+// }
+
+// console.log(castle.price)
+// console.log(castle.isSuperHost)
+
+// OBJECTS AND FUNCTIONS 
+let person = {
+    name: "Ethel",
+    age: 17,
+    country: "Ghana"
 }
 
-console.log(castle.price)
-console.log(castle.isSuperHost)
+function infData(){
+    console.log(person.name +  " " + "is" +" " + person.age + " " + "years old" + " " + "and lives in" + " " + person.country)
+}
+
+infData()

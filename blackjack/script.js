@@ -118,14 +118,21 @@ function getFastestRaceTime(){
 // console.log(castle.isSuperHost)
 
 // OBJECTS AND FUNCTIONS 
-let person = {
-    name: "Ethel",
-    age: 17,
-    country: "Ghana"
-}
+// let person = {
+//     name: "Ethel",
+//     age: 17,
+//     country: "Ghana"
+// }
 
-function infData(){
-    console.log(person.name +  " " + "is" +" " + person.age + " " + "years old" + " " + "and lives in" + " " + person.country)
-}
+// function infData(){
+//     console.log(person.name +  " " + "is" +" " + person.age + " " + "years old" + " " + "and lives in" + " " + person.country)
+// }
 
-infData()
+// infData()
+
+let tertiarySchools = ["KNUST", "UG", "UCC","KNUSTFORD", "UEW"]
+
+tertiarySchools.pop()
+tertiarySchools.push("OXFORD")
+
+console.log(tertiarySchools)

@@ -132,7 +132,7 @@ function getFastestRaceTime(){
 
 let tertiarySchools = ["KNUST", "UG", "UCC","KNUSTFORD", "UEW"]
 
-tertiarySchools.pop()
-tertiarySchools.push("OXFORD")
+tertiarySchools.shift()
+tertiarySchools.unshift("OXFORD")
 
 console.log(tertiarySchools)

@@ -13,8 +13,8 @@ inputEl.value = ""
 function renderLeads() {
   let listItems = "";
   for (let i = 0; i < myLeads.length; i++) {
-    console.log(myLeads[i]);
-    listItems += "<li>" + myLeads[i] + "</li>" + " ";
+    // console.log(myLeads[i]);
+    listItems += "<li><a href='"+ myLeads[i] +"'>" + myLeads[i] + "</a></li>" + " ";
   }
 
   ulEl.innerHTML = listItems;

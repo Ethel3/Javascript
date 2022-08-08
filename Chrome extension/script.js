@@ -19,6 +19,6 @@
 
 const recipient = "Ethel"
 
-const email ="Hey" + " "+ recipient + "!  how are you doing?"
+const email =`Hey ${recipient}!  how are you doing?`
 
 console.log(email)

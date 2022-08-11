@@ -12,6 +12,7 @@ input{
     box-sizing: border-box;
     border: 1px solid #5f9341;
     margin-bottom: 4px;
+    min-width: 400px;
 }
 button{
     background: #5f9341;

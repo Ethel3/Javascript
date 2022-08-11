@@ -1,9 +1,7 @@
 // chrome://extensions/
 let myLeads = `["www.googlead.com"]`
 
-myLeads = JSON.parse(myLeads)
-
-myLeads.push("www.googlead.com")
+myLeads = JSON.stringify(myLeads)
 
 console.log(myLeads)
 

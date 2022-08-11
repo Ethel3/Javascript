@@ -1,11 +1,18 @@
 // chrome://extensions/
-let myLeads = [];
+let myLeads = `["www.googlead.com"]`
+
+myLeads = JSON.parse(myLeads)
+
+myLeads.push("www.googlead.com")
+
+console.log(myLeads)
+
 const inputEl = document.getElementById("input-el");
 const inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
 
-let leads = localStorage.getItem("myLeads")
-console.log(leads)
+// let leads = localStorage.getItem("myLeads")
+// console.log(leads)
 
 // localStorage.clear()
 

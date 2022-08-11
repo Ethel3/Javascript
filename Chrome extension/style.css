@@ -12,6 +12,7 @@ input{
     box-sizing: border-box;
     border: 1px solid #5f9341;
     margin-bottom: 4px;
+    min-width: 400px;
 }
 button{
     background: #5f9341;
@@ -19,4 +20,16 @@ button{
     padding: 10px 20px;
     border: none;
     font-weight: bold;
+}
+ul{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+li{
+    margin-top: 5px;
+
+}
+a{
+    color: #5f9341; 
 }

@@ -8,9 +8,24 @@
 
 // console.log(email)
 
-const credits = 0
-if ("") {
-    console.log("let's play")
-}else{
-    console.log("Sorry, you have no credits")
+// const credits = 0
+// if (credits) {
+//     console.log("let's play")
+// }else{
+//     console.log("Sorry, you have no credits")
+// }
+
+//false 
+//0
+//""
+//null
+//undefined
+//NaN
+
+let currentViewers = null
+
+currentViewers = ["Jane", "Nick"]
+
+if (currentViewers){
+    
 }

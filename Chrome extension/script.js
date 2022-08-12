@@ -9,7 +9,7 @@
 // console.log(email)
 
 const credits = 12
-if (true) {
+if (credits) {
     console.log("let's play")
 }else{
     console.log("Sorry, you have no credits")

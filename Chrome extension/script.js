@@ -22,6 +22,12 @@
 //undefined
 //NaN
 
-let currentViewers
+// let currentViewers = null
 
-console.log(currentViewers)
+// currentViewers = ["Jane", "Nick"]
+
+// currentViewers = null
+
+// if (currentViewers){
+//     console.log("we have viewers")
+// }

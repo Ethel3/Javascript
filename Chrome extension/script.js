@@ -8,8 +8,8 @@
 
 // console.log(email)
 
-const credits = 12
-if (false) {
+const credits = 0
+if ("goody") {
     console.log("let's play")
 }else{
     console.log("Sorry, you have no credits")

@@ -8,9 +8,9 @@
 
 // console.log(email)
 
-const credits = 0
+const credits = 12
 if (credits > 0) {
-    console.log("lets play")
+    console.log("let's play")
 }else{
     console.log("Sorry, you have no credits")
 }

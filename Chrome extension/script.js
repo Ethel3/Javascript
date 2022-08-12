@@ -22,12 +22,6 @@
 //undefined
 //NaN
 
-let currentViewers = null
+let currentViewers
 
-currentViewers = ["Jane", "Nick"]
-
-currentViewers = null
-
-if (true){
-    console.log("we have viewers")
-}
+console.log(currentViewers)

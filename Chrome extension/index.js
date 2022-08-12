@@ -1,24 +1,16 @@
 // chrome://extensions/
-let myLeads = `["www.googlead.com"]`
-
-myLeads = JSON.stringify(myLeads)
-
-console.log(typeof myLeads)
-
+let myLeads = []
 const inputEl = document.getElementById("input-el");
 const inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
-
-// let leads = localStorage.getItem("myLeads")
-// console.log(leads)
-
-// localStorage.clear()
 
 
 inputBtn.addEventListener("click", function () {
   myLeads.push(inputEl.value);
 inputEl.value = ""
   renderLeads()
+
+  console.log(localStorage.getItem("myLeads"))
 });
 function renderLeads() {
   let listItems = "";

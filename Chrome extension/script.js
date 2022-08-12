@@ -26,6 +26,8 @@ let currentViewers = null
 
 currentViewers = ["Jane", "Nick"]
 
-if (currentViewers){
-    
+currentViewers = null
+
+if (true){
+    console.log("we have viewers")
 }

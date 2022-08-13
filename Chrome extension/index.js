@@ -6,7 +6,7 @@ const inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
 const deleteBtn = document.getElementById("delete-btn")
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
-
+const tabBtn = document.getElementById("tab-btn")
 
 
 if (leadsFromLocalStorage){
@@ -14,6 +14,13 @@ if (leadsFromLocalStorage){
   render(myLeads)
 }
 
+const tabs = [
+  {url: "https://www.linkedin.com/in/akrasi-ethel-akosua-69b428212"}
+]
+
+tabBtn.addEventListener("click", function(){
+  console.log(tabs[0].url)
+})
 
 function render(leads) {
   let listItems = "";

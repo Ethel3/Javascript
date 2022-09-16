@@ -16,8 +16,8 @@ button{
     color: black;
     margin-top: 10px;
     border: 1px solid black;
-    padding: 10px 16px;
+    padding: 10px 15px;
     font-weight: bold;
-    curor: pointer;
+    cursor: pointer;
     border-radius: 20px;
 }

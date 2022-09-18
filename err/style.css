@@ -4,12 +4,12 @@ body{
     padding: 20px
 }
 img{
-    width: 200px;
+    width: 220px;
     display: block;
 }
 p{
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 button{
     background: white;

@@ -1,10 +1,10 @@
-// const container = document.getElementById("container")
+const container = document.getElementById("container")
 
-// container.innerHTML = "<button onclick = 'buy()'> Buy!</button>"
+container.innerHTML = "<button onclick = 'buy()'> Buy!</button>"
 
-// function buy(){
-//     container.innerHTML += "<p>Thank you for buying!</p>"
-// }
+function buy(){
+    container.innerHTML += "<p>Thank you for buying!</p>"
+}
 
 
 //parameters are inside the function.

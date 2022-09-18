@@ -8,7 +8,7 @@ img{
     display: block;
 }
 p{
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 6px;
 }
 button{
@@ -16,7 +16,7 @@ button{
     color: black;
     margin-top: 10px;
     border: 1px solid black;
-    padding: 10px 16px;
+    padding: 10px 18px;
     font-weight: bold;
     curor: pointer;
     border-radius: 20px;

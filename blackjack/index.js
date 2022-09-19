@@ -9,8 +9,8 @@ let isAlive = true
 let message = ""
  let messageEl = document.getElementById("message-el")
 //  console.log(messageEl)
-//  let sumEl = document.getElementById("sum-el")
-let sumEl = document.querySelector("#sum-el")
+ let sumEl = document.getElementById("sum-el")
+//let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.getElementById("cards-el")
 let playerEl = document.getElementById("player-el")
 

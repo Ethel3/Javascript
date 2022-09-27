@@ -2,7 +2,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucid','sans-serif';
     background-size: cover;
     font-weight: bold;
-    background-color: green;
+    background-color: blue;
     text-align: center;
     color: white;
     
@@ -17,7 +17,7 @@ button{
     color: #016f32;
     width: 150px;
     background: goldenrod;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
     font-weight: bold;
     border: none;
     border-radius: 3px;

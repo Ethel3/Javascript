@@ -59,10 +59,8 @@ function renderGame() {
         let isAlive = false
     }
     else if(sum > 21) {
-        // console.log("You're out of the game!" + "😭")
         message = ("You're out of the game!")
     }
-    // console.log(message)
     messageEl.textContent = message
 
 }

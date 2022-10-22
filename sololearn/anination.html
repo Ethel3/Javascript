@@ -5,26 +5,31 @@
 <style>
     #container{
         width: 20px;
-        height: 200px;
+        height: 20px;
         background: blue;
         position: relative;
     }
-    box{
+    #box{
         width: 50px;
-        height: 40px;
+        height: 50px;
         background: yellow;
         position: absolute;
     }
 </style>
 
 <script>
-    var t = setInterval(move, 500);
     var pos = 0;
     //our box element
     var box = document.getElementById("box");
+    var t = setInterval(move, 10);
 
     function move() {
-        pos += 1;
+        if (pos>= 150){
+            clearInterval(t);
+        }else{
+            pos += 1;
         box.style.left = pos+"px";
+        }
+        
     }
 </script>

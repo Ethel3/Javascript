@@ -1,4 +1,4 @@
-<div id="container">
+<!-- <div id="container">
     <div id="box"></div>
 </div>
 
@@ -32,4 +32,31 @@
         }
         
     }
+</script> -->
+
+<div>
+    <button onclick="prev()">Prev</button>
+    <img id="slider" src="" alt="">
+    <button onclick="next()">Next</button>
+</div>
+
+<script>
+var images =[];
+var num = 0;
+
+function next(){
+    var slider = document.getElementById("slider");
+    num++;
+    if(num >= images.length) {num = 0;}
+    slider.src = images[num];
+}
+function prev(){
+    var slider = document.getElementById("slider");
+    num--;
+    if(num < 0){
+        num = images.length-1;
+    } 
+    slider.src = images[num];
+}
+
 </script>

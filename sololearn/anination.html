@@ -1,0 +1,30 @@
+<div id="container">
+    <div id="box"></div>
+</div>
+
+<style>
+    #container{
+        width: 20px;
+        height: 200px;
+        background: blue;
+        position: relative;
+    }
+    box{
+        width: 50px;
+        height: 40px;
+        background: yellow;
+        position: absolute;
+    }
+</style>
+
+<script>
+    var t = setInterval(move, 500);
+    var pos = 0;
+    //our box element
+    var box = document.getElementById("box");
+
+    function move() {
+        pos += 1;
+        box.style.left = pos+"px";
+    }
+</script>

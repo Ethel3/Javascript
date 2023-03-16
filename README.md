@@ -7,5 +7,5 @@ This contains basic javascript codes.
 [BlackJack Game.]
 [A chrome Extension ]
 [An error loading page ]
-[ Shuffle cards]
+
 

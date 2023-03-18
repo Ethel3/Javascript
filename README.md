@@ -9,4 +9,4 @@ This contains basic javascript codes.
 [An error loading page ]
 
 <h2>Technologies used<h2>
-<h2>
+<h2>JavaScript <h2>

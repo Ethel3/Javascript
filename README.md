@@ -8,4 +8,5 @@ This contains basic javascript codes.
 [A chrome Extension ]
 [An error loading page ]
 
-
+<h2>Technologies used<h2>
+<h2>

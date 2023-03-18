@@ -1,5 +1,5 @@
 <h1>Javascript<h1>
-<h2>This contains basic javascript codes.<h2>
+<h4>This contains basic javascript codes.<h4>
 
 
 [A Simple Calculator.]

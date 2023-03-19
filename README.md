@@ -2,8 +2,8 @@
 <h4>This contains basic javascript codes.<h4>
 <ul>Apps created<ul>
 
-[A Simple Calculator.]
-[A Passenger counter App.]
+<li>[A Simple Calculator.]<li>
+<li>[A Passenger counter App.]<li>
 [BlackJack Game.]
 [A chrome Extension ]
 [An error loading page ]
